@@ -183,7 +183,6 @@
         &.on{
             color: #fff;
             opacity: 1;
-            // transform: scale(1.4);
             transform: translate3d(0px, 0px, 0em) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)
         }
         h3{
@@ -466,17 +465,6 @@
         font-size: 100px;
     }
     }
-
-    // @keyframes marqee {
-    //     0%{
-    //         transform: translateX(0);
-    //     }
-    //     100%{
-    //         transform: translateX(-50%);
-
-    //     }
-    // }
-
 
 //sc-brand
 .sc-brand{
@@ -823,7 +811,6 @@
         }
         .txt-wrap{
             height: 65%;
-            //font-size: 16px;
         }
     }
     .sc-room {

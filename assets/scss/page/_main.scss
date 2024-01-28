@@ -852,7 +852,6 @@
         .txt-wrap{
             width: 55%;
             height: 65%;
-            //font-size: 12px;
         }
     }
     .sc-room {
@@ -913,9 +912,9 @@
         }     
     }
 }
-@media (max-width:600px){
+@media (max-width:500px){
     .headline{
-        font-size: 26px;
+        font-size: 24px;
     }
     .link-page{
         width: 100px;
@@ -924,8 +923,9 @@
     }
 
     .sc-intro{
+        background: #000;
         .headline{
-            font-size: 22px;
+            font-size: 20px;
             padding: 150px 24px;
         }
         .txt-wrap{
@@ -968,7 +968,7 @@
                 bottom: 50%;
                 display: inline-block;
                 width: 100%;
-                font-size: 53px;
+                font-size: 26px;
                 font-weight: 600;
                 text-align: center;
                 color: #000000a8;

@@ -487,7 +487,7 @@ h2.title {
 .footer {
   width: 100%;
   max-width: 100%;
-  min-height: 180vh;
+  height: 180vh;
   position: relative;
   z-index: 10;
 }
@@ -573,7 +573,7 @@ h2.title {
   top: 0;
   right: 0;
   z-index: 3;
-  padding: 14% 9%;
+  padding: 150px 95px;
   width: 40%;
   height: 100%;
   background-color: #22201f;
@@ -676,7 +676,7 @@ h2.title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 0 10px;
+  padding: 10px 0 10px;
 }
 .footer .group-bottom .bottom-area .co {
   color: #fff;
@@ -714,16 +714,13 @@ h2.title {
     gap: 20px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 500px) {
   .footer {
-    height: auto;
-    min-height: auto;
-    overflow: hidden;
+    height: 120vh;
+    background: #3e3a39;
   }
   .footer .group-top {
-    position: static;
-    display: block;
-    height: auto;
+    height: 40vh;
   }
   .footer .menu-area {
     display: none;
@@ -753,28 +750,30 @@ h2.title {
     margin-top: 5px;
   }
   .footer .family-area {
-    position: static;
     width: 100%;
+    padding: 20% 5%;
   }
   .footer .group-bottom {
-    display: block;
-    height: auto;
-    min-height: 100%;
+    height: 78vh;
+  }
+  .footer .group-bottom .content {
+    padding-top: 70px;
   }
   .footer .group-bottom .f-tit {
-    width: 80px;
+    width: 120px;
   }
   .footer .group-bottom .b-inner {
     position: static;
     max-width: 100%;
     margin: 0;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .footer .group-bottom .top-area {
     display: block;
   }
   .footer .group-bottom .sub-tit {
-    margin-top: 14px;
+    margin-top: 20px;
+    font-size: 12px;
   }
   .footer .group-bottom .bottom-area .co {
     color: #fff;
@@ -1828,17 +1827,20 @@ h2.title {
     font-size: 14px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .headline {
-    font-size: 26px;
+    font-size: 24px;
   }
   .link-page {
     width: 100px;
     height: 35px;
     font-size: 14px;
   }
+  .sc-intro {
+    background: #000;
+  }
   .sc-intro .headline {
-    font-size: 22px;
+    font-size: 20px;
     padding: 150px 24px;
   }
   .sc-intro .txt-wrap {
@@ -1880,7 +1882,7 @@ h2.title {
     bottom: 50%;
     display: inline-block;
     width: 100%;
-    font-size: 53px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
     color: rgba(0, 0, 0, 0.6588235294);

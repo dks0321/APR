@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     max-width: 100%;
-    min-height: 180vh;
+    height: 180vh;
     position: relative;
     z-index: 10;
     .group-top{
@@ -64,7 +64,7 @@
         top: 0;
         right: 0;
         z-index: 3;
-        padding:14% 9%;
+        padding:150px 95px;
         width: 40%;
         height: 100%;
         background-color: #22201f;
@@ -143,7 +143,7 @@
             flex-grow: 1;
             justify-content: space-between;
             align-items: center;
-            padding: 30px 0 10px;
+            padding: 10px 0 10px;
             .co{
                 color: $color-wh;
                 font-size: 12px;
@@ -183,15 +183,12 @@
         }
     }
 }
-@media (max-width:580px){
+@media (max-width:500px){
     .footer{
-        height: auto;
-        min-height: auto;
-        overflow: hidden;
+        height: 120vh;
+        background: #3e3a39;
         .group-top{
-            position: static;
-            display: block;
-            height: auto;
+            height: 40vh;
         }
         .menu-area{
             display: none;
@@ -217,27 +214,29 @@
              }
         }
         .family-area{
-            position: static;
             width: 100%;
+            padding: 20% 5%;
         }
         .group-bottom{
-            display: block;
-            height: auto;
-            min-height: 100%;
+            height: 78vh;
+            .content{
+                padding-top: 70px;
+            }
             .f-tit{
-                width: 80px;
+                width: 120px;
             }
             .b-inner{
                 position: static;
                 max-width: 100%;
                 margin: 0;
-                padding: 0 10px;
+                padding: 0 20px;
             }
             .top-area{
                 display: block;
             }
             .sub-tit{
-                margin-top: 14px;
+                margin-top: 20px;
+                font-size: 12px;
             }
             .bottom-area{
                 .co{

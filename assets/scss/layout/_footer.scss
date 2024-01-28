@@ -65,7 +65,7 @@
         right: 0;
         z-index: 3;
         padding:150px 95px;
-        width: 40%;
+        width: 34%;
         height: 100%;
         background-color: #22201f;
         text-align: center;
@@ -99,7 +99,7 @@
     .group-bottom{
         z-index: 30;
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background: #22201f;
         display: flex;
         flex-direction: column;
@@ -108,6 +108,7 @@
             display: flex;
             justify-content: center;
             position: relative;
+            padding-top: 30px;
             background: #3E3A39;
         }
         .wave-box{
